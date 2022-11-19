@@ -1,0 +1,350 @@
+//header
+p
+{
+  font-size: 18px;
+}
+.header
+{
+  .clr
+  {
+    font-weight:800;
+     font-family:inter; 
+     font-style: normal  ;
+     font-size: 32.4359px;
+  }
+  .clr2:hover{
+    color: #6D7580 !important;
+  }
+  .clr2
+  {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #6D7580;
+  }
+  .clr3
+  {
+    border: 1px solid #D895FF;
+    padding: 6px;
+    border-radius: 6px;
+  }
+}
+
+//Hero-section
+.Hero-section
+{
+  .h1{
+    // font-family:inter; 
+    //  font-style: normal;
+    font-weight: 700;
+    font-size: 48px !important;
+    line-height: 56px;
+// display: flex;
+// align-items: flex-end;
+    color: #FFFFFF;
+    margin-top: 15rem;
+  }
+  p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+color: #EBEEF2;
+  }
+
+  .ulP
+  {
+    margin-top: -22px;
+  }
+
+  .googleplay
+  {
+    width: 162px;
+height: 48px;
+  }
+  .Rectangle
+  {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+
+//SecurelyBuy-section
+@media screen and (max-width: 1400px) 
+{
+  .table1
+  {
+    display: none;
+  }  
+}
+.SecurelyBuy-section
+{
+  background-color: #FCF6FF;
+  .h6_1
+  {
+    margin-top: 10rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  h1
+  {
+    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .p1
+  {
+   
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  }
+  table{
+
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    tr{
+      margin-top: 10px;
+    }
+    .td1{
+      padding-left:6rem ;
+    }
+    .bitcoin
+    {
+      p{
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 34px;
+  span{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 170%;
+    }
+    }
+  }
+
+  .dollar
+  {
+    font-weight: 700;
+      font-size: 28px;
+      line-height: 130%;
+  }
+  .nev
+  {
+    font-weight: 600;
+      font-size: 16px;
+      line-height: 170%;
+      color: #FF6262;
+  }
+  .dollar2{
+    font-weight: 600;
+      font-size: 18px;
+      line-height: 170%;
+  }
+  .btn
+  {
+    padding: 8px 16px;
+      gap: 10px;
+  }
+}
+.btn1
+{
+    padding: 16px 32px;
+    gap: 24px;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+}
+
+
+
+//OnluCard-section
+.OnluCard-section
+{
+    background-image: url("./Media/BG2.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    justify-content: center;
+  .p1
+  {
+    // margin-top: 12rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  h1
+  {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .p2
+  {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+  }
+
+  .btn
+  {
+    background: rgba(33, 30, 31, 0.5);
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 16px 32px;
+    gap: 24px;
+    background: transparentize($color: #000000, $amount: 1);
+    // margin-bottom: 283px;
+  }
+
+}
+
+
+
+
+//DepositCrypto-section
+.DepositCrypto-section
+{
+  .p1
+  {
+    margin-top: 13rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .h1
+  {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .btn1
+{
+    padding: 16px 32px;
+    gap: 24px;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+li
+{
+  h1
+  {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #6D7580;
+  }
+  p
+  {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 170%;
+  }
+}
+.img1
+{
+  margin-top: 6rem;
+  width: 338.23px;
+  height: 665.63px;
+}
+}
+
+
+
+//Trade-section
+.Trade-section
+{
+  .p1
+  {
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .h1
+  {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .p3
+  {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .p4
+  {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    /* identical to box height, or 31px */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    /* Info */
+    
+    color: #0063F7;
+  }
+
+}
+
+//Screens-section
+.Screens-section
+{
+  .h1
+  {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  li{line-height: 20px;}
+  p
+  {
+    font-weight: 400;
+    font-size: 18px;
+    
+  }
+}
