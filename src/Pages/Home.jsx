@@ -1,4 +1,7 @@
 import React from 'react'
+import ContactUs from '../Components/Elements/ContactUs'
+import Cryptocurrency from '../Components/Elements/Cryptocurrency'
+import DefiMade from '../Components/Elements/DefiMade'
 import DepositCrypto from '../Components/Elements/DepositCrypto'
 import Hero from '../Components/Elements/Hero'
 import OnluCard from '../Components/Elements/OnluCard'
@@ -15,6 +18,9 @@ const Home = () => {
     <DepositCrypto/>
     <Trade/>
     <Screens/>
+    <DefiMade/>
+    <Cryptocurrency/>
+    <ContactUs/>
 
     </>
   )

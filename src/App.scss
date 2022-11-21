@@ -1,3 +1,9 @@
+body
+{
+  background-color: #FCF6FF !important;
+}
+
+
 //header
 p
 {
@@ -74,13 +80,6 @@ height: 48px;
 
 
 //SecurelyBuy-section
-@media screen and (max-width: 1400px) 
-{
-  .table1
-  {
-    display: none;
-  }  
-}
 .SecurelyBuy-section
 {
   background-color: #FCF6FF;
@@ -120,9 +119,7 @@ height: 48px;
     tr{
       margin-top: 10px;
     }
-    .td1{
-      padding-left:6rem ;
-    }
+    
     .bitcoin
     {
       p{
@@ -164,7 +161,7 @@ height: 48px;
 .btn1
 {
     padding: 16px 32px;
-    gap: 24px;
+    
     background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
     border-radius: 8px;
     color: white;
@@ -275,6 +272,8 @@ li
   margin-top: 6rem;
   width: 338.23px;
   height: 665.63px;
+  position: relative;
+  margin-bottom: -7rem;
 }
 }
 
@@ -290,6 +289,10 @@ li
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+  }
+  .mBotom
+  {
+    margin-bottom: 11rem;
   }
   .h1
   {
@@ -347,4 +350,151 @@ li
     font-size: 18px;
     
   }
+}
+
+//DefiMade-section
+.DefiMade-section
+{
+  margin-top: 7rem;
+  .img1
+  {
+    width: 338.23px;
+    height: 665.63px;
+    position: relative;
+    // margin-top: ;
+    margin-bottom: -81px;
+  }
+  .p1
+  {
+    margin-top: 9rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  h1
+  {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .p2
+  {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+  }
+
+  .btn1
+  {
+      padding: 16px 32px;
+      gap: 24px;
+      background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+      border-radius: 8px;
+      color: white;
+      font-size: 18px;
+  }
+}
+
+//Cryptocurrency-section
+@media screen and (max-width:720px) 
+{
+  .cryptoheading
+  {
+    font-size: 20px !important;
+  }
+}
+.Cryptocurrency-section
+{
+  background-image: url("./Media/Rectangle51.png");
+  background-position: cover;
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+  justify-content: center;
+  .p1
+  {
+    margin-top: 9rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .cryptoheading
+  {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+  }
+  .year
+  {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60%;
+    color: #D895FF;
+  }
+}
+
+
+//footer
+.footer {
+    background: #160F1A;
+  color: white;
+  .footer-top {
+    .img1
+    {
+      margin-top: 10px;
+      width: 135px;
+      height: 40px;
+      // margin-bottom: 40px;
+      margin-left: 12px;
+      
+    }
+    .img2
+    {
+      width: 155px;
+      height: 60px;
+      margin-bottom: 40px;
+
+    }
+    ul > li {
+      color: gray;
+    }
+    
+  }
+
+
+  .footer-mid {
+    li {
+      color: #A5ABB3;
+    }
+  }
+
+
+  .footer-line {
+    border: 1px solid #2C3A4B;
+    font-weight: bold;
+  }
+  .footer-bottom {
+    color: gray;
+  }
+}
+
+
+//login
+.Login-section
+{
+  
 }

@@ -8,7 +8,7 @@ const Hero = () => {
           <div className="col-md-4 my-5">
             <img
               src="./Assists/Frame.png"
-              style={{ width: "338.23px", height: "665.53px" }}
+              style={{ width: "338.23px", height: "665.53px", marginBottom:"-7rem" }}
               alt=""
             />
           </div>
@@ -65,7 +65,7 @@ const Hero = () => {
                 </p>
               </li>
               </ul>
-              <div className="row">
+              <div className="row mb-2">
                 <div className="col-md-3">
                 <img src="./Assists/googleplay.png" className="googleplay mt-4 " alt="" />
                 </div>

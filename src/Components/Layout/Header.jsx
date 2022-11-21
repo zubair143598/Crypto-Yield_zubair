@@ -14,7 +14,7 @@ const Header = () => {
         </Link>
 
         <button
-          className=" color navbar-toggler"
+          className=" color bg-white navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"

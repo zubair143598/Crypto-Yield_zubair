@@ -3,10 +3,10 @@ import React from "react";
 const Screens = () => {
   return (
     <div className="Screens-section">
-      <div className="container">
-        <div className="row">
+      <div className="container position-relative">
+        <div className="row" style={{}}>
           <div className="col-md-12 mt-5 text-center">
-            <img src="./Assists/Asset1.png" style={{ width: "60%" }} alt="" />
+            <img src="./Assists/Asset1.png" className="p" style={{ width: "60%",marginTop:"-11rem" }} alt="" />
           </div>
           <div className="row">
             <div className="col-md-2"></div>

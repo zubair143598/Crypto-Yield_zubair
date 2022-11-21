@@ -15,13 +15,13 @@ const DepositCrypto = () => {
               Calculate Rewards <AiOutlineArrowRight />
             </button>
             <ul className="d-flex list-unstyled">
-              <li>
+              <li >
                 <p className="py-0 my-0">Up to</p>
                 <h1 className="py-0 my-0">14.5%</h1>
                 <p className="py-0 my-0">p.a. on cryptos</p>
               </li>
 
-              <li>
+              <li className="ms-5">
                 <p className="py-0 my-0">Up to</p>
                 <h1 className="py-0 my-0">8.5%</h1>
                 <p className="py-0 my-0">p.a. on StableCoins</p>
