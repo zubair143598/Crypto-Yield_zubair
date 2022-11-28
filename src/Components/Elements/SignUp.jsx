@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [message, setMessage] = useState("");
+  
 
   const navigate = useNavigate();
 
@@ -31,12 +31,7 @@ const SignUp = () => {
       });
   };
 
-  // if (password == "" ? true : false || pattren.test(password) ? true : false) {
-  //   const comment="ur password should contain one capital one small latter and numaric value"
-  // }
-  // else
-  // {const comment=""}
-
+  
   // let pattren = /[A-Za-z0-1!"£4%^&*]{8,}$/;
    let pattren = /[A-Z]{1,}[a-z]{3,}[0-9]{1,}[!"£$%^&*]{1,}$/;  
   // let pattren = /[A-Za-z0-9!"£$%^&*]{6,}$/;
