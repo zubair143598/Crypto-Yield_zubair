@@ -84,7 +84,7 @@ const SignUp = () => {
               className="btn mt-3 btn-primary fs-5 px-4"
               onClick={handleAction}
               disabled={
-                password == ""
+                password === ""
                   ? true
                   : false || pattren.test(password)
                   ? false
